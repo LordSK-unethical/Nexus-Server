@@ -1,0 +1,18 @@
+{
+  "name": "restaurant-realtime-server",
+  "version": "1.0.0",
+  "description": "Production-ready real-time server for restaurant management system",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": ["restaurant", "socket.io", "realtime"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2",
+    "uuid": "^9.0.0"
+  }
+}
